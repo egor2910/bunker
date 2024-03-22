@@ -2,4 +2,11 @@ body {
     background-image: url(../images/bunker.webp);
     background-repeat: no-repeat;
     background-size: cover;
+ 
+}
+.title {
+    display: flex;
+  
+  color: white;
+  transition: 0.5s;
 }
