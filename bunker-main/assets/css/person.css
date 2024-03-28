@@ -1,6 +1,5 @@
 .person {
     display: none;
-    /* display: flex; */
     transition: 0.5s;
     gap: 5px;
     list-style: none;

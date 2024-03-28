@@ -10,7 +10,7 @@ btnGenerate.addEventListener("click",()=>{
     setTimeout(() => {
          title.style.display = "none"
          card.style.opacity = 100
-         card.style.display = flex
+         card.style.display = "flex"
     }, 1000);
    
 })
