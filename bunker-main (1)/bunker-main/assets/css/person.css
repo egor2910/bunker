@@ -1,0 +1,17 @@
+.person {
+  display: none;
+  /* display: flex; */
+  transition: 0.5s;
+  opacity: 0;
+  gap: 5px;
+  list-style: none;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.person-item {
+  color: white;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  padding: 20px;
+}

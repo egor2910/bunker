@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  color: white;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+.navigation-link:hover {
+  border-bottom: 1px solid white;
+}
+.navigation-button:hover {
+  border-bottom: 1px solid white;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.body {
+  width: 100%;
+  height: 100%;
+}
