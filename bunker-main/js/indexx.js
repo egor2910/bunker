@@ -1,10 +1,10 @@
 import profession from "./massives/profession.js"
 import nameMass from "./massives/name.js"
 import { diseas } from "./massives/disease.js"
+import { fear } from "./massives/fear.js"
 
 const HEALTH_MASS = ["туберкулез", "здоров как бык", "умирает", "нет правой руки", "деменция",
 "синдром Торета"]
-const FEAR_MASS = ["пауки", "тараканы", "высота", "темнота", "крысы", "клоуны", "замкнутые пространства"]
 const HOBBY_MASS = ["чтение книг", "шахматист", "игрок", "боксер", "писатель", "ботаник", "грибник"]
 
 let title = document.querySelector(".title")
@@ -41,9 +41,13 @@ btnGenerate.addEventListener("click",()=>{
     }
     let workExp = random(0, age/ 2)
     personItemMass[3].innerText = "Стаж работы:"+ ageFormat(workExp)
+if (random(0,1) == 1) {
+    personItemMass[4].innerText = "Здоровье: хорошое"
+} else {
     personItemMass[4].innerText = "Здоровье:"+ diseas[random(0,diseas.length)]
+}
     personItemMass[5].innerText = "Плодовитость:"+ [random(1,3)]
-    personItemMass[6].innerText = "Страхи:"+ FEAR_MASS[random(0,FEAR_MASS.length)]
+    personItemMass[6].innerText = "Страхи:"+ fear[random(0,fear.length)]
     personItemMass[7].innerText = "Хобби:"+ HOBBY_MASS[random(0,HOBBY_MASS.length)]
 
     setTimeout(() => {
