@@ -2,10 +2,8 @@ import profession from "./massives/profession.js"
 import nameMass from "./massives/name.js"
 import { diseas } from "./massives/disease.js"
 import { fear } from "./massives/fear.js"
+import { HOBBY_MASS } from "./massives/hobby.js"
 
-const HEALTH_MASS = ["туберкулез", "здоров как бык", "умирает", "нет правой руки", "деменция",
-"синдром Торета"]
-const HOBBY_MASS = ["чтение книг", "шахматист", "игрок", "боксер", "писатель", "ботаник", "грибник"]
 
 let title = document.querySelector(".title")
 let card = document.querySelector(".person")
