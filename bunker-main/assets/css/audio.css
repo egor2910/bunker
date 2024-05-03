@@ -1,0 +1,21 @@
+.range {
+    cursor: pointer;
+    background: none;
+    appearance: none;
+opacity: 0.5;
+}
+.range:hover {
+    opacity: 1;
+}
+.range::-webkit-slider-runnable-track {
+    background-color: brown;
+    height: 20px;
+    border-radius: 5px;
+}
+.range::-webkit-slider-thumb {
+    height: 100%;
+    -webkit-appearance: none;
+    width: 20px;
+    background-color: rgb(0, 255, 234);
+    border-radius: 10px;
+}
