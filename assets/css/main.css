@@ -1,0 +1,21 @@
+body {
+  background-image: url(../images/bunker.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.title {
+  display: flex;
+  color: white;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+}
